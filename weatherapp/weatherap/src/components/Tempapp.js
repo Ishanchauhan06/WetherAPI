@@ -8,7 +8,7 @@ const Tempapp = () => {
   const [desc, setDesc] = useState("");
   useEffect(() => {
     const fetchApi = async () => {
-      const url = `https://api.openweathermap.org/data/2.5/weather?q=${search}&units=metric&appid={Apikey}`;
+      const url = ' API `;
       // const imgurl =
 
       const response = await fetch(url);
